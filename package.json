@@ -1,13 +1,15 @@
 {
-  "name": "vue-scrollto",
+  "name": "vue-scroll-to",
   "version": "0.1.0",
   "private": true,
+  "main": "src/vue-scroll-to.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
     "core-js": "^3.3.2",
+    "gsap": "^3.0.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
